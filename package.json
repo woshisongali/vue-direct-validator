@@ -1,0 +1,30 @@
+{
+  "name": "vue-direct-validator",
+  "description": "Simple Vue.js input validation plugin",
+  "version": "1.0.7",
+  "main": "dist/index.js",
+  "keywords": [
+    "VueJS",
+    "Vue",
+    "validation",
+    "validator"
+  ],
+  "license": "MIT",
+  "author": "wanglei",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wanglei8381/vue-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wanglei8381/vue-validator/issues"
+  },
+  "scripts": {
+    "start": "wag start",
+    "build": "rollup -c",
+    "test": "wag test"
+  },
+  "devDependencies": {
+    "wag-cli": "3.2.0",
+    "vue": "^2.3.2"
+  }
+}

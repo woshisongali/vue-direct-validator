@@ -1,0 +1,28 @@
+.err-tip-wrap {
+  display: inline-block;
+  line-height: 0;
+  outline: 0;
+  vertical-align: bottom;
+  position: relative;
+}
+.err-tip-wrap .err-tip {
+  position: absolute;
+  top: 100%;
+  margin-top: 3px;
+  margin-left: 2px;
+  color: #c33;
+  z-index: 1;
+  white-space: nowrap;
+  display: inline-block;
+}
+.err-tip-wrap .err-tip .err-tip-msg {
+  background-size: contain;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+}
+.err-tip-wrap .err-tip .err-tip-img {
+  vertical-align: sub;
+  padding-right: 3px;
+  height: 15px;
+}
